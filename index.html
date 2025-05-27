@@ -4,34 +4,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>شركة العدالة</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+    }
+  </style>
 </head>
-<body class="bg-gray-100 font-sans">
-  <!-- Hero Section -->
-  <section class="bg-blue-700 text-white text-center py-12 px-4 rounded-b-3xl">
-    <h1 class="text-3xl font-bold mb-4">هل تواجه قضية قانونية؟</h1>
-    <p class="mb-4">احصل على استشارة مجانية من محامين مفيدين في العراق</p>
-    <h2 class="text-xl font-semibold">شركة العدالة</h2>
-    <p class="mt-2">نحن نُحن ملتزمون بتقديم الدعم، الدقة، التخصص لفُؤاد تعاونك. بوضوح.</p>
-  </section>  <!-- Contact Form -->  <section class="max-w-md mx-auto bg-white shadow-lg rounded-lg mt-8 p-6">
+<body class="bg-gray-50 text-gray-800">  <!-- رأس الصفحة -->  <header class="bg-blue-800 text-white py-10 text-center">
+    <h1 class="text-4xl font-bold mb-2">شركة العدالة</h1>
+    <p class="text-lg">نقف إلى جانبك | نسهّل أوراقك | نُدافع عن حقوقك</p>
+  </header>  <!-- نموذج التواصل -->  <section class="max-w-xl mx-auto mt-10 bg-white p-6 rounded-lg shadow">
+    <h2 class="text-2xl font-semibold mb-4 text-center">تواصل معنا</h2>
     <form action="https://formspree.io/f/xjkwnvwy" method="POST" class="space-y-4">
       <input type="text" name="name" placeholder="الاسم الكامل" required class="w-full p-3 border rounded">
       <input type="email" name="email" placeholder="البريد الإلكتروني" required class="w-full p-3 border rounded">
       <textarea name="message" placeholder="رسالتك" required class="w-full p-3 border rounded"></textarea>
-      <button type="submit" class="bg-blue-700 text-white w-full py-2 rounded hover:bg-blue-800">احجز استشارتك الآن</button>
+      <button type="submit" class="bg-blue-700 text-white w-full py-2 rounded hover:bg-blue-800">أرسل الآن</button>
     </form>
-  </section>  <!-- Testimonials -->  <section class="max-w-4xl mx-auto mt-12 p-6 text-center">
-    <h2 class="text-2xl font-bold mb-6">اعتمد ستعمفي</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <blockquote class="bg-white p-4 shadow rounded">“خدمة ممتازة من شركة العدالة. شكراً لنا حزنكعه تغئلنه علي أنصم بشدة.”<br><span class="font-semibold">رُقيّة عظيم</span></blockquote>
-      <blockquote class="bg-white p-4 shadow rounded">“شكراً لشركة العدالة معي.”<br><span class="font-semibold">أحمد أصبحي</span></blockquote>
-      <blockquote class="bg-white p-4 shadow rounded">“أتمّوا إجراءاتي القانونية بدقة. كل الشكر لكم.”<br><span class="font-semibold">سيف ياني</span></blockquote>
-    </div>
-  </section>  <!-- Slogans -->  <footer class="bg-blue-700 text-white text-center py-6 mt-12 rounded-t-3xl">
-    <div class="flex flex-col md:flex-row justify-center gap-8 text-xl font-semibold">
+  </section>  <!-- الشعارات التسويقية -->  <section class="mt-16 text-center bg-blue-50 py-6">
+    <h2 class="text-xl font-bold mb-4">لماذا تختارنا؟</h2>
+    <div class="flex flex-col md:flex-row justify-center gap-8 text-lg font-semibold">
       <span>نحن العدالة</span>
-      <span>تقف جانبك</span>
+      <span>نقف إلى جانبك</span>
       <span>نسهّل أوراقك</span>
     </div>
-  </footer>
-</body>
+  </section>  <!-- تقييمات العملاء -->  <section class="max-w-5xl mx-auto mt-12 px-6">
+    <h2 class="text-2xl font-bold mb-6 text-center">آراء عملائنا</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 shadow rounded text-center">
+        <p class="mb-2">"خدمة ممتازة وسريعة. شكراً شركة العدالة على وقوفكم معي."</p>
+        <span class="font-bold">أحمد القيسي</span>
+      </div>
+      <div class="bg-white p-4 shadow rounded text-center">
+        <p class="mb-2">"تم التعامل بكل احترافية واحترام. أنصح بهم بشدة."</p>
+        <span class="font-bold">رُقيّة محمد</span>
+      </div>
+      <div class="bg-white p-4 shadow rounded text-center">
+        <p class="mb-2">"أتمّوا كافة إجراءاتي القانونية بدقة. كل الشكر لكم."</p>
+        <span class="font-bold">سيف علي</span>
+      </div>
+    </div>
+  </section>  <!-- تذييل الصفحة -->  <footer class="bg-blue-800 text-white text-center py-6 mt-16">
+    <p>&copy; 2025 شركة العدالة. جميع الحقوق محفوظة.</p>
+  </footer></body>
 </html>
