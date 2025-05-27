@@ -108,7 +108,20 @@
       
       <label for="problem">وصف مختصر لمشكلتك:</label>
       <textarea id="problem" name="problem" rows="4" placeholder="اخبرنا عن قضيتك" required></textarea>
-      
+      <form action="https://formspree.io/f/abc123xy" method="POST">
+  <label for="name">الاسم:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">البريد الإلكتروني:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="message">رسالتك:</label><br>
+  <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+  <button type="submit">إرسال</button>
+</form>
+
+    
       <button type="submit">احجز استشارتك الآن</button>
     </form>
     <div class="testimonial">
