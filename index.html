@@ -1,133 +1,67 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>حجز استشارة قانونية مجانية</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    direction: rtl;
-    background-color: #f4f7f8;
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    max-width: 480px;
-    margin: 40px auto;
-    background: white;
-    padding: 30px 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-  h1 {
-    color: #1a237e;
-    margin-bottom: 15px;
-    font-size: 24px;
-    text-align: center;
-  }
-  p.description {
-    text-align: center;
-    color: #555;
-    margin-bottom: 25px;
-  }
-  ul.features {
-    color: #333;
-    margin-bottom: 25px;
-    padding-right: 20px;
-  }
-  ul.features li {
-    margin-bottom: 10px;
-  }
-  label {
-    display: block;
-    margin-bottom: 6px;
-    font-weight: bold;
-    color: #333;
-  }
-  input, textarea {
-    width: 100%;
-    padding: 10px 8px;
-    margin-bottom: 20px;
-    border: 1.5px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-    box-sizing: border-box;
-    font-family: inherit;
-  }
-  textarea {
-    resize: vertical;
-  }
-  button {
-    background-color: #1a237e;
-    color: white;
-    padding: 12px;
-    width: 100%;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  button:hover {
-    background-color: #3949ab;
-  }
-  .testimonial {
-    font-style: italic;
-    color: #555;
-    margin-top: 15px;
-    border-top: 1px solid #ddd;
-    padding-top: 15px;
-  }
-  .footer-text {
-    text-align: center;
-    margin-top: 25px;
-    color: #777;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>شركة محاماة سجاد</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      text-align: right;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #34495e;
+    }
+  </style>
 </head>
 <body>
+
   <div class="container">
-    <h1>هل تواجه قضية قانونية؟ احصل على استشارة مجانية من محامين معتمدين في العراق!</h1>
-    <p class="description">نحن في <strong>مكتب العدالة للمحاماة والاستشارات القانونية</strong> نقدّم لك استشارة مجانية أولية تساعدك على فهم موقفك القانوني قبل اتخاذ أي خطوة.</p>
-    <ul class="features">
-      <li>محامون متخصصون في القانون الجنائي، المدني، والعمل</li>
-      <li>سرية تامة في التعامل مع القضايا</li>
-      <li>سرعة في الرد خلال أقل من 24 ساعة</li>
-    </ul>
-    <form>
+    <h1>مرحباً بكم في شركة محاماة سجاد</h1>
+    <p>نقدم لك استشارات قانونية متخصصة وخدمة مهنية متميزة. أرسل لنا استفسارك الآن وسنعود إليك في أقرب وقت.</p>
+
+    <form action="https://formspree.io/f/xjkwnvwy" method="POST">
       <label for="name">الاسم الكامل:</label>
-      <input type="text" id="name" name="name" placeholder="اكتب اسمك الكامل" required />
-      
+      <input type="text" id="name" name="name" required />
+
       <label for="email">البريد الإلكتروني:</label>
-      <input type="email" id="email" name="email" placeholder="example@mail.com" required />
-      
-      <label for="phone">رقم الهاتف:</label>
-      <input type="tel" id="phone" name="phone" placeholder="07701234567" required />
-      
-      <label for="problem">وصف مختصر لمشكلتك:</label>
-      <textarea id="problem" name="problem" rows="4" placeholder="اخبرنا عن قضيتك" required></textarea>
-      <form action="https://formspree.io/f/abc123xy" method="POST">
-  <label for="name">الاسم:</label><br>
-  <input type="text" id="name" name="name" required><br><br>
+      <input type="email" id="email" name="email" required />
 
-  <label for="email">البريد الإلكتروني:</label><br>
-  <input type="email" id="email" name="email" required><br><br>
+      <label for="message">رسالتك:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
 
-  <label for="message">رسالتك:</label><br>
-  <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-  <button type="submit">إرسال</button>
-</form>
-
-    
-      <button type="submit">احجز استشارتك الآن</button>
+      <button type="submit">إرسال</button>
     </form>
-    <div class="testimonial">
-      "تم التعامل باحتراف، وأنقذوني من موقف قانوني معقّد." – أحمد من بغداد
-    </div>
-    <p class="footer-text">لا تؤجل قرارك – الاستشارة مجانية وسرية تمامًا.</p>
   </div>
+
 </body>
 </html>
